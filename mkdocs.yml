@@ -1,0 +1,26 @@
+site_name: 刘杰夫的深度学习笔记
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    # - navigation.expand
+
+nav:
+  - 首页: index.md
+  - 深度学习: 
+    - 第一章-序言与介绍: SB_Ch1_Introduction.md
+    - 第二章-多臂老虎机: SB_Ch2_Multi-armed_Bandits.md
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
