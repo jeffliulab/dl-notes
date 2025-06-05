@@ -9,7 +9,7 @@ theme:
 nav:
   - 首页: index.md
   - 深度学习: 
-    - 第一章-序言与介绍: SB_Ch1_Introduction.md
+    - 第一章-序言与介绍: Ian_Ch1.md
     - 第二章-多臂老虎机: SB_Ch2_Multi-armed_Bandits.md
 
 markdown_extensions:
